@@ -1,4 +1,4 @@
-export default function compareNumbers(guess, correctNumber) {
+export function compareNumbers(guess, correctNumber) {
     if (guess === correctNumber) {
         return 0; 
         // alert('You win!');
@@ -11,3 +11,9 @@ export default function compareNumbers(guess, correctNumber) {
     }
     
 }
+
+export function randomNumber() {
+    Math.ceil(Math.random() * 20);
+}
+
+// export function highOrLow() {} <-- could potentially be used for alert.
