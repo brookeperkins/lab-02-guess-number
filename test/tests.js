@@ -1,1 +1,1 @@
-import './example.test.js';
+import './compare.test.js';

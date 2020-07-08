@@ -9,16 +9,16 @@
     <link href="assets/number-pic.jpg">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/home.css">
     <title>Guess The Number</title>
 </head>
 
 <body>
     <header id="title">GUESS THE NUMBER!</header>
+    
     <body>
-      <main>
-        <header id="instructions">Instructions</header>
+        <main>
           <section id="list">
+            <header id="instructions">Instructions:</header>
             <ul>
               <li>Pick a number between 1 and 20.</li>
               <li>If you are correct, you win! If not, keep guessing.</li>
@@ -26,16 +26,33 @@
             </ul> 
           </section>
           <section id="input">
-              <input id="guess"></input>
+              <input type="number" id="guess" min="1" max="20"/>
               <button id="button">Take a guess!</button>
           </section>
-          <section id="results"></section>
-          <section id="results"></section>
+         
+          <span id="guess-was"></span>
+
+          <!-- <span id="tries-remaining">4 tries remaining</span> -->
+          
+          <span id ="win-lose"></span>
+          <span id ="high-low"></span>
+          
+          <button type="reset" id="reset">Reset</button>
+   
+          <footer>By Brooke Perkins</footer>
         </main>
-    <footer>By Brooke Perkins</footer>
     </body>
 
     <script type="module" src="app.js"></script>
 </body>
 
 </html>
+<!-- 
+
+</content>
+
+<footer id="results-section">
+    <div id="win-lose"></div>
+    <input type="reset" id="reset">
+    <input type="reset" class="button" id="reset">
+</footer> -->
