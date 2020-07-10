@@ -1,3 +1,7 @@
+export function randomNumber() {
+    Math.ceil(Math.random() * 20);
+}
+
 export function compareNumbers(guess, correctNumber) {
     if (guess === correctNumber) {
         return 0; 
@@ -12,8 +16,12 @@ export function compareNumbers(guess, correctNumber) {
     
 }
 
-export function randomNumber() {
-    Math.ceil(Math.random() * 20);
+export function highOrLow() {
+    if (result === 0) {
+        return ('You\'re a winner!');
+    } else if (result === -1) {
+        return ('That\'s too low!');
+    } else if (result === 1) {
+        return ('That\'s too high!');
+    }
 }
-
-// export function highOrLow() {} <-- could potentially be used for alert.

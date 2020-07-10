@@ -1,9 +1,8 @@
-// IMPORT MODULES under test here:
-// import example from '../example.js';
+import { compareNumbers } from '../numberUtils.js';
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('should return a random number', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = true;

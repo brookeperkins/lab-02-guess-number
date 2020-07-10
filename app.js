@@ -15,3 +15,5 @@ console.log(myGuess, myButton, winLose, highLow, reset);
 let triesRemaining = 4;
 
 // set event listeners to update state and DOM
+
+const 
