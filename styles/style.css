@@ -1,0 +1,83 @@
+body {
+    background-image: url('../assets/number-pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--footer-height));
+}
+
+header {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+input { 
+    width: 100px;
+}
+
+#list {
+    border: solid black 2px;
+    padding: 50px;
+    background-color: white;
+}
+
+#instructions {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+    margin: 15px;
+    background-color: yellow;
+}
+
+#guesses {
+    margin: 10px;
+    font-weight: bold;  
+}
+
+#reset-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 30px;
+    color: red;
+    border: solid red 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    width: 600px;
+    max-width: 80%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .7rem;
+
+}
