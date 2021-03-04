@@ -1,1 +1,1 @@
-# lab-02-guess-number
+# Fun lil guess number game in vanillajs!
